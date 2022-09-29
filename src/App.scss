@@ -1,0 +1,26 @@
+.logo{
+  text-align: left;
+  height: 100px;
+  .logo-img{
+    height: 100px;
+    width: 100px;
+  }
+}
+
+.header{
+  height: 100px;
+  .navbar{
+    height: 50px;
+    margin-bottom: 15px;
+  }
+  .filters{
+    height: 50px;
+  }
+}
+
+.body{
+  margin-top: 50px;
+  width: 850px;
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+}
